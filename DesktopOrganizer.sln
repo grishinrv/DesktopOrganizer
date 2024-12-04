@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupDaemon", "BackupDaemo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupConfigManager", "BackupConfigManager\BackupConfigManager.csproj", "{C6C52C16-2B5C-48B1-B2DF-9165263A755B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{082C66B2-D78F-492D-9ADC-B1A02EEA7241}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C6C52C16-2B5C-48B1-B2DF-9165263A755B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6C52C16-2B5C-48B1-B2DF-9165263A755B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6C52C16-2B5C-48B1-B2DF-9165263A755B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082C66B2-D78F-492D-9ADC-B1A02EEA7241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082C66B2-D78F-492D-9ADC-B1A02EEA7241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082C66B2-D78F-492D-9ADC-B1A02EEA7241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082C66B2-D78F-492D-9ADC-B1A02EEA7241}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
