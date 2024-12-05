@@ -3,5 +3,5 @@
 public sealed class ProjectFiles
 {
     public string? ActiveProject { get; set; }
-    public List<string>? Projects { get; set; }
+    public HashSet<string> Projects { get; set; } = new HashSet<string>();
 }
